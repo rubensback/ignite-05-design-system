@@ -21,8 +21,8 @@ jobs:
       
       - run: yarn build
         env:
-          TURBO_TOKEN: aqn8Alq5SK5qH8EdoSTgLYGr
-          TURBO_TEAM: rubensback
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+          TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 
       - name: Deploy storybook
         working-directory: ./packages/docs
