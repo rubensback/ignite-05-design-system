@@ -1,0 +1,2 @@
+import{g as t,a as o}from"./index-e9f52c74.js";import{j as r}from"./jsx-runtime-c2142c84.js";import"./index-42521bac.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./index-4bd83974.js";const l={title:"Data display/Tooltip",component:t,args:{text:"Some tooltip text here.",children:r(o,{css:{marginTop:50},children:"Please hover on me!"})},argTypes:{text:{control:{type:"text"}},children:{control:{type:null}}}},n={},m=["Primary"];export{n as Primary,m as __namedExportsOrder,l as default};
+//# sourceMappingURL=Tooltip.stories-d2e7c604.js.map
